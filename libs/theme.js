@@ -44,7 +44,7 @@ const config = {
   useSystemColorMode: true
 }
 
-const theme = (extendTheme = {
+const theme = extendTheme({
   config,
   styles,
   components,
